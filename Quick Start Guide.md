@@ -18,12 +18,12 @@ In this quickstart guide, I aim to:
 
 3. Opt for the most straightforward method, particularly for steps that can be done in multiple ways.
 
-## Target audience
+## Target Audience
 
 The target audience of this quickstart guide is non-technical people installing a WordPress.org theme for the first time. 
 The users are unfamiliar with WordPress and only need the bare minimum from the theme.
 
-# 📝 Quickstart guide for the Ethereal Glow WordPress.org Theme
+# 📝 Quickstart Guide for the Ethereal Glow WordPress.org Theme
 
 The Ethereal Glow WordPress Theme provides the ultimate blogging and design solution for your needs. This theme is beautiful, professional, easily customizable, and packed 
 with several features. It's also available in multiple languages, compatible with different plugins, and SEO-optimizable.
@@ -38,7 +38,7 @@ After installing WordPress, you must complete the steps below.
 
 ## Step 1: Download the Theme from Etsy.
 
-### Procedure
+**Procedure**
 
 1. Log in to your Etsy account.
 2. Click your profile picture in the upper right corner of the page. Select **Purchases and reviews** from the dropdown box.
@@ -56,22 +56,22 @@ It contains commands that control and configure how the server runs your website
 1. Log in to your WordPress **cPanel**.
 2. Scroll down the page and locate the **Files** section.
 3. Under the Files section, select File Manager.
-   This opens a new page.
+   \n This opens a new page.
 4. In the File Manager, find the search bar in the upper right corner of the page. 
 5. Type **.htaccess** in the search bar. 
 6. Press **Enter** to initiate the search.
-   The search results pop-up screen should appear on the page. 
+   \n The search results pop-up screen should appear on the page. 
 6. Double-click /public_html/.access. 
    It returns you to the File Manager or the previous page.
 7. Right-click on the **.htaccess** file, and choose **Edit**. 
-    A pop-up screen will appear. 
+   \n A pop-up screen will appear. 
 8. Click **Edit** to proceed.
 7. Add the following code to the end of the file.
-
-  ```php_value post_max_size 64M  
-  ```php_value upload_max_filesize 128M  
-  ```php_value max_file_uploads 128M  
-  ```php_value max_input_vars 5000
+  ```
+  php_value post_max_size 64M  
+  php_value upload_max_filesize 128M  
+  php_value max_file_uploads 128M  
+  php_value max_input_vars 5000```
 
 8. Click **Save Changes**.
 
@@ -85,7 +85,7 @@ For this guide, you'll be uploading the theme via the WordPress admin panel.
 2. On the left sidebar, select **Appearance > Themes**.
 3. Choose **Add New**.
 4. Choose **Upload Theme**.
-   This displays a new page section.
+   \n This displays a new page section.
 5. Click **Choose file**.
 6. Navigate to the folder where you downloaded your Ethereal Glow theme and select the **ethereal-glow.zip** file.
 7. After choosing the file, click **Install Now**.
