@@ -1,4 +1,4 @@
-# Quickstart guide
+# Quickstart Guide
 
 # Context
 
@@ -51,7 +51,7 @@ After installing WordPress, you must complete the steps below.
 The WordPress .htaccess file is a powerful configuration file. 
 It contains commands that control and configure how the server runs your website.
 
-###Procedure
+**Procedure**
 
 1. Log in to your WordPress **cPanel**.
 2. Scroll down the page and locate the **Files** section.
@@ -82,7 +82,8 @@ It contains commands that control and configure how the server runs your website
 You can upload the Ethereal Glow theme via WordPress or FTP. 
 For this guide, you'll be uploading the theme via the WordPress admin panel.
 
-### Procedure
+**Procedure**
+
 1. Log in to your WordPress.org account.
 2. On the left sidebar, select **Appearance > Themes**.
 3. Choose **Add New**.
@@ -93,10 +94,8 @@ For this guide, you'll be uploading the theme via the WordPress admin panel.
 7. After choosing the file, click **Install Now**.
 8. Once the theme has been successfully installed, click **Activate**.
 
-[!CAUTION]
-Make sure you choose the theme archive–ethereal-glow.zip–and not the other .zip files you downloaded.
+**Next Steps**
 
-**Next Steps
 Once you are done with the prerequisite steps, you can start setting up and customizing your new theme, which includes:
 
 * Adding plugins
